@@ -16,7 +16,9 @@ class App
   # This is the main instructions
   main do |log|
     l = Skyline::Parser.new log
-    puts l.inspect
+    l.each do |line|
+      puts line.inspect
+    end
   end
 
   # These are the options

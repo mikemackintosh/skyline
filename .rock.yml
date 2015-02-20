@@ -1,2 +1,2 @@
 runtime: ruby21
-run: exec bin/skyline
+run: exec bin/skyline /var/log/nginx/vhost/www.hackersandhipsters.com/nginx.access.log

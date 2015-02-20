@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
 
-  s.add_dependency 'httparty'
+  s.add_dependency 'home_run'
   s.add_dependency 'fattr'
   s.add_dependency 'paint'
   s.add_dependency 'methadone'

@@ -1,6 +1,7 @@
 require 'fattr'
 require 'paint'
 
+require 'skyline/parser'
 require 'skyline/version'
 
 module Skyline
